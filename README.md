@@ -20,16 +20,4 @@ Clone the repository and execute script:
    chmod +x deployment.sh
    ./deployment.sh
    ```
-
-## Uninstall
-Clone the repository and execute script:
-   ```bash
-   rm -rf $HOME/flask-login-app
-   ```
-
-## Run when already installed
-Clone the repository and execute script:
-   ```bash
-   cd $HOME/flask-login-app
-   python3 app.py
-   ```
+Program is automatically removed on closure
