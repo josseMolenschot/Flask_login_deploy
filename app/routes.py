@@ -3,6 +3,8 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from .models import User
 from . import db
 
+print("routes.py has started")
+
 def init_routes(app):
     @app.route('/')
     def index():

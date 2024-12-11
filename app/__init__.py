@@ -1,6 +1,8 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
+print("init.py has started")
+
 db = SQLAlchemy()
 
 def create_app():
