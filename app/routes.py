@@ -6,8 +6,10 @@ from . import db
 print("routes.py has started")
 
 def init_routes(app):
+    print("routes initialised")
     @app.route('/')
     def index():
+        print("returning login url")
         return redirect(url_for('login'))
 
     @app.route('/register', methods=['GET', 'POST'])
