@@ -2,7 +2,7 @@
 
 set -e
 
-DEPLOY_DIR="$HOME/flask-login-app"
+DEPLOY_DIR="$HOME/Flask_login_deploy"
 
 if [ -d "$DEPLOY_DIR" ]; then
     echo "Directory $DEPLOY_DIR already exists. Updating files..."
