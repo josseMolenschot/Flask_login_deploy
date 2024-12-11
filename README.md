@@ -13,6 +13,8 @@ This is a simple Flask application with user registration, login, and a dashboar
 - SQLite
 
 ## Installation
+Install via docker or venv
+1.Venv
 Clone the repository and execute script:
    ```bash
    git clone https://github.com/josseMolenschot/Flask_login_deploy.git
@@ -21,3 +23,12 @@ Clone the repository and execute script:
    ./deployment.sh
    ```
 Program is automatically removed on closure
+
+2.Docker
+Clone the repository and execute script:
+   ```bash
+   git clone https://github.com/josseMolenschot/Flask_login_deploy.git
+   cd Flask_login_deploy/
+   chmod +x docker_deployment.sh
+   ./docker_deployment.sh
+   ```
