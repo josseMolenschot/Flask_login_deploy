@@ -30,5 +30,4 @@ pip install -r requirements.txt
 
 # Run the Flask app
 echo "Starting the Flask application..."
-export FLASK_APP=app.py  # Ensure this points to the correct entry point
-flask run --host=0.0.0.0 --port=5000
+python3 app.py
