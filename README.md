@@ -15,4 +15,4 @@ This is a simple Flask application with user registration, login, and a dashboar
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/josseMolenschot/Flask_login_deploy.git
