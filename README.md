@@ -19,3 +19,14 @@ This is a simple Flask application with user registration, login, and a dashboar
    cd Flask_login_deploy/
    chmod +x deployment.sh
    ./deployment.sh
+
+## Uninstall
+1. Clone the repository and execute script:
+   ```bash
+   rm -rf $HOME/flask-login-app
+
+## Run when already installed
+1. Clone the repository and execute script:
+   ```bash
+   cd $HOME/flask-login-app
+   python3 app.py

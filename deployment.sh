@@ -14,7 +14,7 @@ fi
 
 # Copy files to the deployment directory
 echo "Copying files to $DEPLOY_DIR..."
-cp -r . "$DEPLOY_DIR"
+mv -r . "$DEPLOY_DIR"
 
 # Navigate to the deployment directory
 cd "$DEPLOY_DIR"
