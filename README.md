@@ -13,6 +13,9 @@ This is a simple Flask application with user registration, login, and a dashboar
 - SQLite
 
 ## Installation
-1. Clone the repository:
+1. Clone the repository and execute script:
    ```bash
    git clone https://github.com/josseMolenschot/Flask_login_deploy.git
+   cd Flask_login_deploy/
+   chmod +x deployment.sh
+   ./deployment.sh
