@@ -1,11 +1,8 @@
 # Use the official Python image
-FROM python:3.8-slim
-
-# Set the working directory in the container
-WORKDIR /app
+FROM python:3.8-alpine AS builder
 
 # Copy the app code into the container
-COPY . /app
+COPY requirements.txt /app
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt

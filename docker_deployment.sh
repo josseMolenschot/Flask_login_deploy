@@ -16,6 +16,6 @@ fi
 
 # Run the container
 echo "Running the Docker container..."
-docker run -d --name $CONTAINER_NAME -p 5050:5050 flask_app_image
+docker run -d --name $CONTAINER_NAME -v $(pwd)/app.py:/app -p 5050:5050 flask_app_image
 
 echo "Flask app is running in the Docker container on http://localhost:5050"
